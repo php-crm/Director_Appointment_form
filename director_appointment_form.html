@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Director Appointment Form</title>
+</head>
+<body>
+<center>
+<h3>Director Appointment Form</h3>
+
+</center>
+<div class="container">
+<p>This is general appointment form
+which can be used by anyone.
+</p>
+  <form action="submit_phpcrm_form.php" method="post">
+    
+    <input type="text" id="name" name="name" placeholder="Name" required>
+
+    <input type="email" id="email" name="email" placeholder="Email" required>
+    <input type="number" id="phone" name="phone" placeholder="Phone" required> 
+
+    <textarea id="comment" name="comment" style="height:200px" placeholder="Comments" required></textarea>
+    <center>
+    <input type="submit" value="SEND"  class="btn">
+    </center>
+  </form>
+</div>
+
+</body>
+</html>
